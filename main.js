@@ -8,7 +8,7 @@
     let botaoReiniciar;
 
     function verificarPalpite() {
-      cost palpiteUsuario = Number(campoPalpite.value);
+      const palpiteUsuario = Number(campoPalpite.value);
       if(contagemPalpites ===1) {
          palpites.textContent = "Palpites anteriores:  ";
       }
@@ -34,6 +34,35 @@
     }
    }
    
+   contagemPalpites++;
+   campoPalpite.value = "";
+   campoPalpite.focus();
+}
+
+envioPalpite.addEventListener('click',verificarPalpite);
+   campoPalpite.disabled = true;
+   envioPalpite.disabled = true;
+   botaoReiniciar = document.createElement('button');
+   document.body.appendChild(botaoReiniciar);
+   botaoReiniciar.addEventListener('click', reiniciarJogo);
+}
+
+
+function reiniciarJogo() {
+   contagemPalpites = 1;
+   const paragrafosReiniciar = document.querySelectorAll('.parargrafosResultado p');
+   for (const paragrafosReiniciar of paragrafosReiniciar) {
+      paragrafosReiniciar.textContent = "";
+   }
+
+   botaoReiniciar.parentNode.removeChild(botaoReiniciar);
+   campoPalpite.disabled = false;
+   envioPalpite.disabled = false;
+   campoPalpite.value = "";
+   campoPalpite.focus();
+   ultimoResultado.style.backgroundColor = 'white';
+   numeroAleatorio = Math.floor(Math.random() *100) + 1;
+}
 
 
          
