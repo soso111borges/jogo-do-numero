@@ -40,7 +40,22 @@ align-items: center;
         font-size: 1.1em;
       }
 
-      .ultimoResultado {
+.formulario input[type="submit"]
+   padding: 10px 20px;
+   background-color: #28a745;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 1.1em;
+   cursor: pointer;
+   transition: backgraund-color o.3s ease;
+}
+
+.formulario input[type="submit"]:hover {
+   backgraund-color: #218838;
+}
+
+.ultimoResultado {
         color: white;
         padding: 3px;
       }
