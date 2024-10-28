@@ -1,24 +1,24 @@
 html {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(to rigth, #ff7e5f, #ffe47b);
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to rigth, #ff7e5f, #ffe47b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      body {
-        width: 50%;
-        max-width: 800px;
-        min-width: 480px;
-        margin: 0 auto;
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-h1{
+h1 {
   text-align: center;
   font-size: 2.5em;
   color: #333;
@@ -26,72 +26,70 @@ h1{
 }
 
 .formulario {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-      
-      .formulario input[type="number"] {
-        width: 200px;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        font-size: 1.1em;
-      }
+
+.formulario input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.1em;
+}
 
 .formulario input[type="submit"] {
-   padding: 10px 20px;
-   background-color: #28a745;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-size: 1.1em;
-   cursor: pointer;
-   transition: backgraund-color o.3s ease;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: backgraund-color o.3s ease;
 }
 
 .formulario input[type="submit"]:hover {
-   background-color: #218838;
+  background-color: #218838;
 }
 
- .paragrafosResultados p {
+.paragrafosResultados p {
   font-size: 1.2em;
   text-align: center;
   margin: 10px 0;
- }
+}
 
- .ultimoResultado {
-        color: rgb(194, 51, 51);
-        padding: 3px;
-        border-radius: 5px;
-        font-size: 1.3em;
-        text-align: center;
-      }
+.ultimoResultado {
+  color: rgb(194, 51, 51);
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 1.3em;
+  text-align: center;
+}
 
-      .ultimoResultado.errado {
-        background-color: #dc3545;
-      }
+.ultimoResultado.errado {
+  background-color: #dc3545;
+}
 
-      .ultimoResultado.correto {
-        background-color: #28a745;
-      }
+.ultimoResultado.correto {
+  background-color: #28a745;
+}
 
-      .botaoReiniciar {
-        display: block;
-        margin: 20px auto;
-        padding: 1opx 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 1.2em;
-        cursor: pointer;
-        transition: backgound-color 0.3s ease;
-      }
+.botaoReiniciar {
+  display: block;
+  margin: 20px auto;
+  padding: 1opx 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: backgound-color 0.3s ease;
+}
 
-      .botaoReiniciar.hover {
-        background-color: #005ab3;
-      }
-
-
+.botaoReiniciar.hover {
+  background-color: #005ab3;
+}
