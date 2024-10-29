@@ -48,7 +48,7 @@ envioPalpite.addEventListener('click',verificarPalpite);
    botaoReiniciar.classList.add('botaoReiniciar');
    document.body.appendChild('botaoReiniciar');
    botaoReiniciar.addEventListener('click', reiniciarJogo);
-}
+
 
 
 function reiniciarJogo() {
